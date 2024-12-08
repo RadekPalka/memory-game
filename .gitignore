@@ -1,0 +1,54 @@
+# Node.js dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Temporary files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# OS-specific files
+*.swp
+*.swo
+*.tmp
+
+# Cache directories
+.cache/
+.next/
+out/
+*.log
+
+# Lint/Testing
+coverage/
+*.coverage
+eslintcache
+jest.config.js
+
+# Editor specific
+*.iml
+*.sublime-workspace
+*.sublime-project
+
+# Tailwind
+.tailwindcss*
+
+# Typescript
+*.tsbuildinfo
+
+# Others
+*.bak
+*.orig
